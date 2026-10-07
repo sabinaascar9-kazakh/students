@@ -1,0 +1,15 @@
+_pycache_/
+*.py[cod]
+*.pyo
+
+# Виртуальное окружение
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Система
+.DS_Store
+Thumbs.db
