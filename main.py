@@ -8,4 +8,12 @@ def show_students():
         print(f"{i}. {name}")
     print("=" * 30)
 
+def find_student(name):
+    if name in students:
+        print(f"Найден студент: {name}")
+    else:
+        print(f"Студент '{name}' не найден")
+
 show_students()
+print("\n--- Поиск ---")
+find_student("Нурлан")
