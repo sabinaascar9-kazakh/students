@@ -14,6 +14,13 @@ def find_student(name):
     else:
         print(f"Студент '{name}' не найден")
 
+def add_student(name):
+    students.append(name)
+    print(f"Студент {name} успешно добавлен")
+
 show_students()
 print("\n--- Поиск ---")
 find_student("Нурлан")
+print("\n--- Добавление ---")
+add_student("Данияр")
+show_students()
